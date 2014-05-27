@@ -29,36 +29,36 @@
         },
         "Swatch 2": {
             "color1":"#ffffff",
-            "color2":"darkolivegreen",
-            "color3":"darkolivegreen",
-            "color4":"darkolivegreen",
+            "color2":"#556b2f",
+            "color3":"#556b2f",
+            "color4":"#556b2f",
             "color5":"#8d8d8d",
             "color6":"#939393",
             "color7":"#ffffff"
         },
         "Swatch 3": {
             "color1":"#ffffff",
-            "color2":"darkslategrey",
-            "color3":"darkslategrey",
-            "color4":"darkslategrey",
+            "color2":"#2f4f4f",
+            "color3":"#2f4f4f",
+            "color4":"#2f4f4f",
             "color5":"#8d8d8d",
             "color6":"#939393",
             "color7":"#ffffff"
         },
         "Swatch 4": {
             "color1":"#ffffff",
-            "color2":"steelblue",
-            "color3":"steelblue",
-            "color4":"steelblue",
+            "color2":"#4682b4",
+            "color3":"#4682b4",
+            "color4":"#4682b4",
             "color5":"#8d8d8d",
             "color6":"#939393",
             "color7":"#ffffff"
         },
         "Swatch 5": {
             "color1":"#ffffff",
-            "color2":"midnightblue",
-            "color3":"midnightblue",
-            "color4":"midnightblue",
+            "color2":"#191970",
+            "color3":"#191970",
+            "color4":"#191970",
             "color5":"#8d8d8d",
             "color6":"#939393",
             "color7":"#ffffff"
@@ -68,7 +68,7 @@
        "title": "Lato",
         "font1": {
             "font-family": "\"Helvetica\", Arial, sans-serif",
-            "font-size": "38px",
+            "font-size": "34px",
             "font-weight": "400",
             "line-height": "42px",
             "color": "@color-swatch4",

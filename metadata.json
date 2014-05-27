@@ -85,7 +85,6 @@
         "font3": {
             "font-family": "\"Old Standard TT\", \"Book Antiqua\", \"Palatino Linotype\", serif",
             "font-size": "20px",
-            "font-style": "italic",
             "font-weight": "400",
             "line-height": "30px",
             "color": "darken(@color-swatch4,10%)",
@@ -94,7 +93,6 @@
         "font4": {
             "font-family": "\"Old Standard TT\", \"Book Antiqua\", \"Palatino Linotype\", serif",
             "font-size": "17px",
-            "font-style": "italic",
             "font-weight": "400",
             "line-height": "26px",
             "color": "@color-swatch4",

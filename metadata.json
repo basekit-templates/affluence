@@ -83,7 +83,7 @@
             "letter-spacing": "2px"
         },
         "font3": {
-            "font-family": "\"Times New Roman\", serif",
+            "font-family": "\"Old Standard TT\", \"Book Antiqua\", \"Palatino Linotype\", serif",
             "font-size": "20px",
             "font-style": "italic",
             "font-weight": "400",
@@ -92,8 +92,8 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Times New Roman\", serif",
-            "font-size": "16px",
+            "font-family": "\"Old Standard TT\", \"Book Antiqua\", \"Palatino Linotype\", serif",
+            "font-size": "17px",
             "font-style": "italic",
             "font-weight": "400",
             "line-height": "26px",
@@ -109,8 +109,8 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"PT Sans\", Tahoma, Geneva, sans-serif",
-            "font-size": "17px",
+            "font-family": "\"Old Standard TT\", \"Book Antiqua\", \"Palatino Linotype\", serif",
+            "font-size": "18px",
             "font-weight": "400",
             "line-height": "26px",
             "color": "@color-swatch6",

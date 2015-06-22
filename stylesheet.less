@@ -1054,7 +1054,6 @@ input {
 button.btn,
 .widget.paypalbuynow .widget.button.paypal,
 .widget.tweet a,
-.widget.socialicons a,
 .blog-search-submit-button,
 a.ecom-product-go-to-checkout-btn,
 .widget.ecombasket .ecombasket-pull,
@@ -1075,6 +1074,14 @@ a.ecom-product-go-to-checkout-btn,
     &:hover {
         background-color: @font-swatch7-background-color-hover;
     }
+}
+
+.widget.socialicons a,
+.widget.profile .bk-profile-socialicons span a {
+    border: 3px solid @color-swatch1!important;
+    -webkit-box-shadow: 0px 0px 0px 1px fade(@color-swatch3, 20%);
+    -moz-box-shadow: 0px 0px 0px 1px fade(@color-swatch3, 20%);
+    box-shadow: 0px 0px 0px 1px fade(@color-swatch3, 20%);
 }
 
 

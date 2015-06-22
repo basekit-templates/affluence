@@ -125,7 +125,7 @@
             "color": "@color-swatch1",
             "letter-spacing": "0",
             "background-color": "@color-swatch3",
-            "background-color-hover": "lighten(@color-swatch3,8%)"
+            "background-color-hover": "lighten(@color-swatch3,10%)"
         },
         "font8": {
             "font-family": "\"Open Sans\", Helvetica, Verdana, sans-serif",

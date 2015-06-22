@@ -1041,6 +1041,14 @@ input, textarea {
     min-height: 45px;
 }
 
+input {
+    margin-right: 5px;
+    @media @mobile {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
 
 button.btn,
 .widget.paypalbuynow .widget.button.paypal,
@@ -1144,11 +1152,7 @@ time.blog-post-publish-date {
 /* Misc */ 
 
 .widget {
-    .socialicons span a {
-        -moz-border-radius: 50px;
-        -webkit-border-radius: 50px;
-        border-radius: 50px;
-    }
+
     &.line {
         hr.line {
             background-color: lighten(@color-swatch5, 75%);

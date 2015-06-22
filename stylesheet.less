@@ -1058,7 +1058,8 @@ button.btn,
 a.ecom-product-go-to-checkout-btn,
 .widget.ecombasket .ecombasket-pull,
 .ecombasket-summary-link,
-.widget.ecomproduct .ecom-product .btn {
+.widget.ecomproduct .ecom-product .btn,
+.blog-post-more-link a {
     color: @font-swatch7-color;
     background-color: @font-swatch7-background-color;
     border: 3px solid @color-swatch1!important;
@@ -1074,6 +1075,22 @@ a.ecom-product-go-to-checkout-btn,
     &:hover {
         background-color: @font-swatch7-background-color-hover;
     }
+}
+
+.blog-post-more-link {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+    a {
+        padding: 8px 15px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.widget.dropbox button {
+    vertical-align: middle;
 }
 
 .widget.socialicons a,

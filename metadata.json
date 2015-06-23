@@ -4,17 +4,13 @@
     "screenshot":"affluence.png",
     "pageTypes": ["home", "default"],
     "images":[
-        "images/gallery/1.jpg",
-        "images/gallery/2.jpg",
-        "images/gallery/3.jpg",
-        "images/gallery/4.jpg",
-        "images/gallery/5.jpg",
-        "images/gallery/6.jpg"
+        "images/logo.png",
+        "images/feature-bg.jpg"
     ],
     "tags": {
-    "en": ["clean", "menu", "ecommerce", "shop"],
-    "es": ["limpio", "menú", "ecommerce", "tienda"],
-    "br": ["limpo", "menu", "ecommerce", "loja"]
+    "en": ["clean", "business", "corporate", "company", "corporation", "professional"],
+    "es": ["limpio", "negocios", "corporativo", "empresa", "corporativo", "profesional"],
+    "br": ["limpo", "negócio", "corporativo", "companhia", "corporação", "eleição", "profissional"]
     },
     "colorSwatches":
     {
@@ -65,7 +61,7 @@
         }
     },
     "fontSwatch": {
-       "title": "Lato",
+       "title": "Old Standard TT / Helvetica",
         "font1": {
             "font-family": "\"Helvetica\", Arial, sans-serif",
             "font-size": "34px",

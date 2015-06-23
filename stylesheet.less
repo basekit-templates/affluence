@@ -171,6 +171,7 @@ h5 {
                     }
                     ul {
                         background-color: @color-swatch1;
+                        border: 1px solid darken(@color-swatch7, 5%);
                         left: 0;
                         top: 28px;
                         @media @tablet {
@@ -427,8 +428,10 @@ h5 {
             }
             select {
                 font-size: bkscale(@font-swatch7-font-size, 0.96);
+                max-width: 200px;
                 @media @tablet {
                     width: 100%;
+                    max-width: 100%;
                 }
             }
         }

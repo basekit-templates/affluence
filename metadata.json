@@ -1,7 +1,7 @@
 {
     "name":"Affluence",
     "thumbnail":"affluence.png",
-    "screenshot":"affluence.png",
+    "screenshot":"affluence.jpg",
     "pageTypes": ["home", "default"],
     "images":[
         "images/logo.png",

@@ -118,8 +118,16 @@ h5 {
                 padding: 8px 10px;
                 @media @tablet {
                     border: none;
-                    padding: 12px 25px;
+                    padding: 0;
                 }
+
+               span.text {
+                     @media @tablet {
+                        padding: 12px 25px;
+                        display: block;
+                    }
+                }
+
                 &:hover {
                     transition: color 0.5s ease;
                     @media @tablet {
@@ -131,7 +139,11 @@ h5 {
                     }
                     a {
                         color: darken(@color-swatch5, 14%);
+
                     }
+
+
+
                     &.folder span.text {
                         color: darken(@color-swatch5, 14%);
                     }
@@ -155,13 +167,7 @@ h5 {
                         padding-bottom: 20px;
                     }
                 }
-                a, span.text {
-                    @media @tablet {
-                        font-size: bkscale(@font-swatch6-font-size, 1.05);
-                        padding-left: 0;
-                        padding-right: 0;
-                    }
-                }
+
                 &.folder {
                     margin-right: 0;
                     padding-right: 20px;
@@ -295,6 +301,7 @@ h5 {
                     margin: 0 auto;
                     padding: 40px 30px 30px;
                     width: 80%;
+
                     &:before {
                         border: 1px solid fade(@color-swatch1, 50%);
                         content: "";

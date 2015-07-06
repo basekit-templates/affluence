@@ -1567,12 +1567,23 @@ select[name="displayCount"] {
         background-color: @color-swatch1;
         border: 1px solid darken(@color-swatch1,7%);
         margin: 5px 10px 0 0;
-        padding: 8px 18px;
+        padding: 0;
+        padding-right: 0;
         text-decoration: none;
+
+        a, span {
+            padding: 8px 18px;
+            display: inline-block;
+        }
+
         &:hover {
             border: 1px solid @color-swatch3;
         }
     }
+}
+
+.widget.ecomproductslist .productlist-pagination .productlist-pagination-pages .productlist-pagination-page {
+    padding-right: 0;
 }
 
 

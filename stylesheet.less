@@ -137,6 +137,13 @@ h5 {
                         }
                     }
                 }
+
+                &.selected span.text, &.folder:hover li.selected span.text {
+                    color: @color-swatch4;
+                }
+
+
+
                 &:last-child {
                     @media @tablet {
                         border-right: none;
@@ -352,7 +359,7 @@ h5 {
                     background-color: fade(@color-swatch3, 90%);
                     transition: background-color ease-in 0.5;
                 }
-                span { 
+                span {
                     font-size: bkscale(@font-swatch7-font-size, 0.95);
                 }
             }
@@ -582,7 +589,7 @@ h5 {
             overflow: hidden;
             @media @tablet {
                 width: 100%;
-            }           
+            }
         }
         .ecom-product-long-description {
             color: @color-swatch5;
@@ -592,7 +599,7 @@ h5 {
             @media @tablet {
                 padding: 2em 0 0;
             }
-        } 
+        }
     }
 }
 
@@ -610,7 +617,7 @@ h5 {
             border-color: fade(@font-swatch5-color, 35%);
         }
         table {
-            th { 
+            th {
                 font-weight: @font-swatch5-font-weight ;
             }
             td {
@@ -1096,13 +1103,13 @@ div[role="main"] {
 
 
 .widget.button button,
-button.btn, 
+button.btn,
 .btn,
-.widget.profile form button, 
-.signupform fieldset button, 
-.contactform button.btn, 
-.blogsearch form button, 
-.checkout-order-button, 
+.widget.profile form button,
+.signupform fieldset button,
+.contactform button.btn,
+.blogsearch form button,
+.checkout-order-button,
 .checkout-empty-link,
 .widget.tweet a,
 .widget.paypalbuynow .widget.button.paypal,
@@ -1263,8 +1270,8 @@ time.blog-post-publish-date {
 
     // Form Buttons
 
-        .signupform fieldset button, 
-        .blogsearch form button.blog-search-submit-button, 
+        .signupform fieldset button,
+        .blogsearch form button.blog-search-submit-button,
         .widget.profile form button.btn {
             height: 45px;
             position: relative;
@@ -1378,7 +1385,7 @@ textarea {
 
 
 
-/* Misc */ 
+/* Misc */
 
 .widget {
 
